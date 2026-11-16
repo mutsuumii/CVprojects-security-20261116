@@ -1,0 +1,93 @@
+{
+  "source_repo": "enpeizhao/CVprojects",
+  "source_url": "https://github.com/enpeizhao/CVprojects",
+  "audit_date": "2026-11-16T09:10:45.088867",
+  "scanner_version": "1.3.0",
+  "findings_count": 10,
+  "severity_breakdown": {
+    "HIGH": 4,
+    "CRITICAL": 6
+  },
+  "findings": [
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/ppocr/utils/network.py",
+      "line": 46
+    },
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/ppocr/utils/save_load.py",
+      "line": 68
+    },
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/ppocr/utils/save_load.py",
+      "line": 159
+    },
+    {
+      "id": "PY-DESER-001",
+      "name": "Insecure deserialization",
+      "severity": "CRITICAL",
+      "cwe": "CWE-502",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/ppocr/utils/save_load.py",
+      "line": 69
+    },
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "codes/21.GAN\u8001\u7167\u7247\u4e0a\u8272\u52a8\u8d77\u6765/RealSR/scripts/extract_subimgs_single.py",
+      "line": 35
+    },
+    {
+      "id": "PY-CMDI-001",
+      "name": "Command injection via shell=True",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/tools/infer/utility.py",
+      "line": 294
+    },
+    {
+      "id": "PY-CMDI-001",
+      "name": "Command injection via shell=True",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/tools/infer/utility.py",
+      "line": 301
+    },
+    {
+      "id": "PY-EVAL-001",
+      "name": "Code injection via eval/exec",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "codes/9.virtual reader/baidu_pp_ocr/ppocr/data/imaug/__init__.py",
+      "line": 63
+    },
+    {
+      "id": "PY-EVAL-001",
+      "name": "Code injection via eval/exec",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "codes/19.OCR\u8f66\u724c\u8bc6\u522b/tools/eval.py",
+      "line": 73
+    },
+    {
+      "id": "PY-DESER-001",
+      "name": "Insecure deserialization",
+      "severity": "CRITICAL",
+      "cwe": "CWE-502",
+      "file": "codes/19.OCR\u8f66\u724c\u8bc6\u522b/ppocr/losses/center_loss.py",
+      "line": 45
+    }
+  ]
+}
